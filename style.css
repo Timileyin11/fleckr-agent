@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Heebo", sans-serif;
+}
+header {
+}
+header .h-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 40px;
+}
+nav {
+  padding: 25px 40px;
+  /* padding: 10px 0px; */
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+main {
+  background-color: #f5f3ef;
+  padding: 100px 50px;
+  margin: 0px 40px;
+  border-radius: 16px;
+  display: flex;
+  position: relative;
+}
+main img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 40%;
+}
+main div {
+  max-width: 670px;
+}
+main h1 {
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 70px;
+}
+main p {
+  font-size: 16px;
+  font-weight: 400;
+}
+main button {
+  width: 235px;
+  height: 56px;
+  border-radius: 29px;
+  padding: 16px, 32px, 16px, 32px;
+  background-color: black;
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+main button span {
+  /* padding: 3px;
+    border: 1px solid white;
+    border-radius: 10px; */
+}
+@media screen and (max-width: 1300px) {
+  main div {
+    max-width: 50%;
+  }
+  main div h1 {
+    font-size: 7vh;
+  }
+  main img {
+    top: 10%;
+  }
+}
+@media screen and (max-width: 925px) {
+  main div h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  main img {
+    top: 20%;
+  }
+}
+@media screen and (max-width: 605px) {
+  main div {
+    max-width: 100%;
+  }
+  main img {
+    width: 100%;
+    top: 80%;
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  main {
+    padding: 180px 30px;
+    margin: 0px 15px;
+  }
+}
+
+footer {
+  background-color: #1e429b;
+  padding: 100px;
+}
+.foot-btn {
+  display: flex;
+  justify-content: space-between;
+}
+footer button {
+  display: flex;
+  gap: 5px;
+  padding: 12px 32px 12px 32px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: #fff;
+  border-radius: 24px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #f5f3ef;
+}
+.foot-content {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-cont {
+  display: flex;
+  gap: 20px;
+}
+.foot-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.foot-links a {
+  color: #fff;
+  text-decoration: none;
+}
+.foot-icons {
+  display: flex;
+  gap: 20px;
+}
+.foot-icons div {
+  background-color: #d9d9d920;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 120px;
+}
+.foot-icons div i {
+  color: #fff;
+}
+@media screen and (max-width: 850px) {
+  footer {
+    padding: 100px 20px;
+  }
+  .foot-content {
+    flex-direction: column;
+  }
+  .foot-icons div {
+    background-color: #d9d9d920;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 120px;
+  }
+  .foot-btn img {
+    width: 100px;
+  }
+  footer button {
+    display: flex;
+    gap: 5px;
+    padding: 8px 22px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fff;
+    border-radius: 24px;
+  }
+}
+@media screen and (max-width: 590px) {
+    footer{
+        margin-top: 300px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+    .foot-links a{
+        font-size: 13px;
+    }
+    .foot-cont{
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+    .foot-icons{
+        border-top: 1px solid #f5f3ef;
+        padding-top: 30px;
+    }
+}
